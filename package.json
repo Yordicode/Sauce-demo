@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./tests"    
+  },
+  "author": "Yordani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.15.0",
+    "testcafe-reporter-teamcity": "^1.0.12"
+  }
+}
